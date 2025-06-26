@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"  # Der Pfad zu requirements.txt relativ zur Repo-Root
+    schedule:
+      interval: "weekly"
